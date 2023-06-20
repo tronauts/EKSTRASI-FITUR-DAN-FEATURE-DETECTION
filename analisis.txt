@@ -1,0 +1,12 @@
+
+Ekstraksi Fitur LBP: Menggunakan histogram pola biner lokal untuk menggambarkan tekstur citra. Tidak mempertimbangkan informasi warna.
+
+Ekstraksi Fitur Berdasarkan Warna: Menganalisis distribusi warna dalam citra untuk menghasilkan deskriptor warna. Tidak memperhatikan struktur atau tekstur citra.
+
+Ekstraksi Fitur GLCM: Menggambarkan hubungan spasial antara piksel dengan matriks GLCM. Berguna untuk menggambarkan tekstur citra, tetapi sensitif terhadap rotasi dan skalasi.
+
+Deteksi Fitur Menggunakan Corner Detector: Mencari sudut-sudut signifikan dalam citra sebagai fitur. Berguna dalam deteksi objek dan pengukuran perubahan perspektif, tetapi tidak memberikan deskripsi fitur secara rinci.
+
+Deteksi dan Pencocokan Fitur dengan Template Matching: Membandingkan citra dengan template untuk mencocokkan fitur. Sederhana namun mungkin tidak efisien atau akurat jika terdapat variasi signifikan dalam fitur.
+
+Dengan demikian, setiap metode memiliki kelebihan dan kelemahan yang berbeda dalam ekstraksi dan deteksi fitur pada citra.
